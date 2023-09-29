@@ -1,0 +1,214 @@
+.pageHeader {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 500px;
+}
+
+.navigationBar {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: darkblue;
+    background-image: linear-gradient(to right, darkblue, lightblue, darkblue);
+    border: 1px solid gold;;
+}
+
+.navigationLogo {
+    padding-left: 350px;
+}
+
+.navigationEnd {
+    padding-right: 450px;
+}
+
+.newsBox {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.backgroundImage {
+    position:relative;
+    top: 0;
+    left: 0;
+}
+
+.foregroundImage {
+    position:absolute;
+    top: 30px;
+    left: 570px;
+}
+
+.newsCategories {
+    display:flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.categoryButtons {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-top: 1px solid rgb(214, 193, 73);
+    border-bottom: 1px solid rgb(214, 193, 73);
+}
+
+.newsArticles {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    margin-left: 650px;
+    margin-right: 650px;
+
+}
+
+.nextPage {
+    display:flex;
+    justify-content:center;
+    color: white;
+    background-color: black;
+    border: 3px solid gold;
+    margin-left: 900px;
+    margin-right: 900px;
+    padding:5px;
+}
+
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dropdown {
+    position: relative;
+    display:inline-block;
+}
+
+.franchiseLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: black;
+    color: white;
+}
+
+
+.centerWhite {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.pageEnd {
+    padding-bottom: 50px;
+}
+
+.shrinkText {
+    font-size:x-small;
+}
+
+.hyperlinkWhite{
+    color: white;
+}
+
+.spaceOut {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.blackBackground {
+    background-color: black;
+}
+
+.smallImage {
+    width: 25px;
+}
+
+.rowEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.backgroundEnd {
+    position: relative;
+    text-align: center;
+}
+
+.growText {
+    font-size: x-large;
+}
+
+.leftColumn {
+    position:absolute;
+    left:200px;
+    bottom:765px;
+    color: beige;
+}
+
+.middleColumn {
+    position:absolute;
+    left: 400px;
+    bottom:400px;
+    color: white;
+}
+.rightColumn {
+    position:absolute;
+    right: 250px;
+    bottom: 600px;
+}
+
+.rightColumnSecond {
+    position:absolute;
+    right:200px;
+    bottom:500px;
+}
+
+.pageEnder1 {
+    position: absolute;
+    bottom:200px;
+}
+
+.pageEnder2 {
+    position: absolute;
+    bottom:150px;
+}
+
+.pageEnder3 {
+    position:absolute;
+    bottom:100px;
+    left: 50px;
+}
+
+.pageEnder4 {
+    position:absolute;
+    bottom:0px;
+    left:800px;
+}
+
+.blackSquare {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height:250px;
+    background-color: black;
+}
